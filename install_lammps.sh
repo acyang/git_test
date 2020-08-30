@@ -8,3 +8,6 @@ cd /root/lammps/src
 #Now build Lammps
 make yes-user-omp
 make serial -j20
+
+mkdir -p /opt/lammps/bin
+cp lmp_serial /opt/lammps/bin
